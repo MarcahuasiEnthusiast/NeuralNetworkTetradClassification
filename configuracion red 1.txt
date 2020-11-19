@@ -1,0 +1,31 @@
+input_nodes = 3
+hidden_nodes = 21
+output_nodes = 19
+
+learning_rate = 0.1
+
+
+
+
+
+input_nodes = 3
+hidden_nodes = 21
+output_nodes = 19
+
+learning_rate = 0.001
+epochs = 190
+
+
+
+
+
+36 inputs
+
+input_nodes = 36
+hidden_nodes = 60
+output_nodes = 20
+learning_rate = 2
+n = neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
+
+# ENTRENAR RED NEURONAL
+epochs = 75
