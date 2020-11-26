@@ -16,7 +16,9 @@ ADN = [['61576266', '55596266', '55596064', '57606367'],
          ['55586265', '55586063', '55566063', '53566063'],
          ['55576064', '52545762', '53555760', '50555954']]
 
-chordProgression = ['48606567', '48566370', '57596165', '49516468']
+chordProgression = ['51606567', '51545670', '53606170', '50545771']
+
+
 
 # ALEATORIO ['58506061', '59486271', '55596958', '48675067']
 # ['57616266', '55596266', '55596064', '57606367']
@@ -90,7 +92,7 @@ def playChordProgression(data):
         midiout.open_port(3)
     else:
         midiout.open_virtual_port("My virtual output")
-    for j in range(10):
+    for j in range(2):
         for i in range(len(data)):
             # note on
             try:
